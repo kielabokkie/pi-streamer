@@ -14,4 +14,4 @@ echo "Remove old docker container"
 docker rm -f cam
 
 echo "Starting Youtube stream"
-docker run --privileged --name cam -d kielabokkie/pi-streamer $YOUTUBE_KEY
+docker run --privileged --restart always --name cam -d kielabokkie/pi-streamer $YOUTUBE_KEY
