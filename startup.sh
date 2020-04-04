@@ -2,7 +2,7 @@
 
 # This script gets the latest version of the docker image and starts streaming
 
-cd ~/pi-streamer
+cd /home/pi/pi-streamer
 
 echo "Pulling changes"
 git pull
