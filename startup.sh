@@ -16,5 +16,5 @@ docker rm -f cam
 # echo "Starting Youtube stream"
 # docker run --privileged --restart always --name cam -d kielabokkie/pi-streamer $YOUTUBE_KEY
 
-echo "Starting Twitch stream"
-docker run --privileged --restart always --name cam -d kielabokkie/pi-streamer $TWITCH_KEY
+echo "Starting Facebook stream"
+docker run --privileged --restart always --name cam -d kielabokkie/pi-streamer $FB_KEY
